@@ -1,0 +1,30 @@
+{
+  "name": "apikeyprotectiontemplate",
+  "version": "1.0.0",
+  "description": "Template to protect your APIs keys in the backend with NodeJS",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+  },
+  "scripts": {
+    "start:backend": "nodemon index.js",
+    "start:frontend": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hide-api-template"
+  },
+  "keywords": [
+    "hide",
+    "api",
+    "key",
+    "protect",
+    "backend"
+  ],
+  "author": "Alejandro Peralta",
+  "license": "MIT"
+}
