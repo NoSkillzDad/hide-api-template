@@ -1,4 +1,4 @@
-#Hide API key template
+# Hide API key template
 
 if you include your API key in the frontend (even "hidden" in a .env file, it can be found in the developer tools in main.static).
 
