@@ -19,6 +19,8 @@ You can fit this easily in your REACT App. Just include the given files in the r
 Consult express and axios documentation for expanded use.
 Make sure you have nodemon installed
 
+Backend is setup in `index.js`. A basic example of how to call it from your REACT app is in `src/App.js`
+
 You need to run both your front and backend for it to work. Modify your `package.json` as follow:
 
 add `"start:backend"` and change `start` to `"start:frontend"`
